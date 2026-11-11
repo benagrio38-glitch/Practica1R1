@@ -27,6 +27,12 @@ flutter run -d chrome
 |---|---|---|
 | ![Estado inicial](evidencia/01_estado_inicial.png) | ![Diálogo](evidencia/02_dialogo_resultado.png) | ![Etiqueta](evidencia/03_etiqueta_resultado.png) |
 
+## Pruebas automáticas
+
+`flutter test` pasa las 2 pruebas de `test/widget_test.dart`: Verificar muestra el resultado y Limpiar lo borra, y los campos vacíos muestran "Datos incompletos".
+
+![flutter test](evidencia/04_flutter_test.png)
+
 ## Pruebas realizadas
 
 | # | Entrada | Resultado |
